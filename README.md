@@ -6,19 +6,29 @@ with Rust.
 Visit https://www.rust-lang.org/tools/install and follow the
 instructions.
 
-  > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
 # Build
-  > cargo build
+```
+cargo build
+```
 
 # Test
-  > cargo test
+```
+cargo test
+```
 
 or
 
-  > cargo test --no-fail-fast
+```
+cargo test --no-fail-fast
+```
 
 # Run
-  > ./target/debug/rust_fizzbuzz 1
-  > ./target/debug/rust_fizzbuzz 2
-  ...
+```
+> ./target/debug/rust_fizzbuzz 1
+> ./target/debug/rust_fizzbuzz 2
+...
+```
